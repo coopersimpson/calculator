@@ -1,0 +1,41 @@
+* { 
+    /* outline: 1px dotted red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 300px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 530px;
+    background: grey;
+}
+
+#display {
+    text-align: right;
+    width: 330px;
+    height: 95px;
+    font-size: 45px;
+}
+
+.buttons {
+    display: flex;
+    height: 410px;
+    width: 330px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.buttons button {
+    width: 81px;
+}
+
+.buttons #clear,
+.buttons #delete {
+    width: 162px;
+}
