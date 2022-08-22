@@ -16,7 +16,7 @@
     background: grey;
 }
 
-#display {
+.display {
     text-align: right;
     width: 330px;
     height: 95px;
@@ -35,7 +35,7 @@
     width: 81px;
 }
 
-.buttons #clear,
-.buttons #delete {
+.buttons .allclear,
+.buttons .delete {
     width: 162px;
 }
