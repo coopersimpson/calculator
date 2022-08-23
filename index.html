@@ -11,11 +11,12 @@
 <body>
     <div class="container">
         <div class="display">
+            <div id="screen-previous">0</div>
             <div id="screen-current">0</div>
         </div>
         <div class="buttons">
-            <button class="allclear">CLEAR</button>
-            <button class="delete">Delete</button>
+            <button class="allclear" id="clearBtn">CLEAR</button>
+            <button class="delete" id="deleteBtn">Delete</button>
             <button class="digits" id="digit-7" data-number="7">7</button>
             <button class="digits" id="digit-8" data-number="8">8</button>
             <button class="digits" id="digit-9" data-number="9">9</button>
@@ -28,9 +29,9 @@
             <button class="digits" id="digit-2" data-number="2">2</button>
             <button class="digits" id="digit-3" data-number="3">3</button>
             <button class="operators" data-operator="-">-</button>
-            <button class="decimal" data-number=".">.</button>
+            <button class="decimal" id="decimal" data-number=".">.</button>
             <button class="digits" id="digit-0" data-number="0">0</button>
-            <button class="equals">=</button>
+            <button class="equals" id="equalsBtn">=</button>
             <button class="operators" data-operator="+">+</button>      
         </div>
     </div>
