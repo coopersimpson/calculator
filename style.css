@@ -21,6 +21,9 @@
     width: 330px;
     height: 95px;
     font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    flex: none;
 }
 
 .buttons {
